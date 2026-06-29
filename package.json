@@ -1,0 +1,14 @@
+{
+  "name": "naturallyfunny-go",
+  "version": "1.0.0",
+  "description": "Go vanity URL redirector using Cloudflare Workers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.103.0"
+  }
+}
